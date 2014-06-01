@@ -1,6 +1,8 @@
 Fantom::Application.routes.draw do
+  devise_for :admin_users, ActiveAdmin::Devise.config
   get "static_pages/home"
   get "static_pages/help"
+  get "static_pages/about"
   ActiveAdmin.routes(self)
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

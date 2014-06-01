@@ -6,6 +6,9 @@ gem 'rails', '4.0.0'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 
+# Use Devise
+gem 'devise'
+
 # Use ActiveAdmin git://github.com/gregbell/active_admin.git
 gem 'activeadmin', github: 'gregbell/active_admin'
 
