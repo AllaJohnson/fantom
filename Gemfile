@@ -3,8 +3,11 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
+# Use Bootstrap
+gem 'bootstrap-sass', '2.3.2.0'
+
 # Use sqlite3 as the database for Active Record
-#gem 'sqlite3'
+gem 'sqlite3', '1.3.8'
 
 # Use Devise
 gem 'devise'
@@ -16,7 +19,6 @@ gem 'activeadmin', github: 'gregbell/active_admin'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
-  # gem 'guard-rspec', '2.5.0'
 end
 
 group :test do
